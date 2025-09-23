@@ -1,7 +1,8 @@
 async function loadLocale(lang) {
-  const response = await fetch(`/assets/locales/${lang}.json`);
+  const response = await fetch(`./assets/locales/${lang}.json`);
   return await response.json();
 }
+
 
 async function changeLang(lang) {
   const resources = await loadLocale(lang);
