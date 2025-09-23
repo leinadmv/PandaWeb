@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About us",
+    "contact": "Contact"
+  },
+  "header": {
+    "title": "Welcome to Panda",
+    "subtitle": "Your favorite restaurant"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  }
+}

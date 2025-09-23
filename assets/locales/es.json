@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "contact": "Contacto"
+  },
+  "header": {
+    "title": "Bienvenido a Panda",
+    "subtitle": "Tu restaurante favorito"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados"
+  }
+}

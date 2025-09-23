@@ -51,24 +51,13 @@ https://templatemo.com/tm-558-klassy-cafe
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="index.html" class="logo">
-                            <img src="assets/images/panda-logo.svg" width="170" height="55" align="klassy cafe html template">
+                            <img src="assets/images/panda-logo.svg" width="170" height="55">
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
                             <li class="scroll-to-section"><a href="#about">About</a></li>
-
-                            <!-- 
-                            <li class="submenu">
-                                <a href="javascript:;">Drop Down</a>
-                                <ul>
-                                    <li><a href="#">Drop Down Page 1</a></li>
-                                    <li><a href="#">Drop Down Page 2</a></li>
-                                    <li><a href="#">Drop Down Page 3</a></li>
-                                </ul>
-                            </li>
-                        -->
                             <li class="scroll-to-section"><a href="#menu">Menu</a></li>
                             <li class="scroll-to-section"><a href="#chefs">Chefs</a></li>
                             <li class="submenu">
@@ -78,6 +67,13 @@ https://templatemo.com/tm-558-klassy-cafe
                                     <li><a href="#">Features Page 2</a></li>
                                     <li><a href="#">Features Page 3</a></li>
                                     <li><a href="#">Features Page 4</a></li>
+                                </ul>
+                            </li>
+                            <li class="submenu">
+                                <a href="javascript:;">Lenguaje</a>
+                                <ul>
+                                    <li data-lang="en"><a>Ingles</a></li>
+                                    <li data-lang="es"><a>Español</a></li>
                                 </ul>
                             </li>
                             <!-- <li class=""><a rel="sponsored" href="https://templatemo.com" target="_blank">External URL</a></li> -->
@@ -93,6 +89,11 @@ https://templatemo.com/tm-558-klassy-cafe
         </div>
     </header>
     <!-- ***** Header Area End ***** -->
+
+    <section id="hero" style="padding:50px; text-align:center; color: black;">
+        <h1 data-i18n="header.title"></h1>
+        <p data-i18n="header.subtitle"></p>
+    </section>
 
     <!-- ***** Main Banner Area Start ***** -->
     <div id="top">
@@ -808,7 +809,7 @@ https://templatemo.com/tm-558-klassy-cafe
                 </div>
                 <div class="col-lg-4">
                     <div class="logo">
-                        <a href="index.html"><img src="assets/images/white-logo.png" alt=""></a>
+                        <a href="index.html"><img src="assets/images/panda-logo.svg" width="170" height="55"></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-xs-12">
@@ -861,6 +862,9 @@ https://templatemo.com/tm-558-klassy-cafe
         });
 
     </script>
+
+    <script src="assets/js/i18next.min.js"></script>
+    <script src="assets/js/i18n.js"></script>
 </body>
 
 </html>
