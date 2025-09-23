@@ -2,13 +2,32 @@
   "nav": {
     "home": "Inicio",
     "about": "Nosotros",
-    "contact": "Contacto"
+    "services": "Servicios",
+    "employees": "Nosotros",
+    "language": "Idioma",
+    "contact": "Contactenos",
+    "languages": {
+        "en": "Inglés",
+        "es": "Español"
+    },
+    "menu": "Menú"
   },
   "header": {
     "title": "Bienvenido a Panda",
     "subtitle": "Tu restaurante favorito"
   },
+  "banner": {
+  },
+  "aboutUsArea": {
+  },
+  "menuArea": {
+  },
+  "employeesArea": {
+  },
+  "contactUsArea": {
+  },
+  "servicesAreatwo": {
+  },
   "footer": {
-    "rights": "Todos los derechos reservados"
   }
 }
