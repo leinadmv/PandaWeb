@@ -17,6 +17,13 @@ async function changeLang(lang) {
     keys.forEach(k => text = text[k]); // navega el JSON
     if (text) el.innerHTML = text;
   });
+
+  document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
+  const keys = el.getAttribute("data-i18n-placeholder").split(".");
+  let text = resources;
+  keys.forEach(k => text = text[k]);
+  if (text) el.placeholder = text;
+});
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -37,6 +44,8 @@ document.addEventListener("DOMContentLoaded", () => {
       changeLang(selectedLang);
     });
   });
+
+  
 });
 
 

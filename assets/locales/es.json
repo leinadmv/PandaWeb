@@ -5,10 +5,10 @@
     "services": "Servicios",
     "employees": "Nosotros",
     "language": "Idioma",
-    "contact": "Contactenos",
+    "contact": "Contáctenos",
     "languages": {
-        "en": "Inglés",
-        "es": "Español"
+      "en": "Inglés",
+      "es": "Español"
     },
     "menu": "Menú"
   },
@@ -17,17 +17,72 @@
     "subtitle": "Tu restaurante favorito"
   },
   "banner": {
+    "panda": "Panda Bootcamp",
+    "slogan": "La mejor experiencia",
+    "contact": "Contáctenos"
   },
   "aboutUsArea": {
+    "aboutUs": "Acerca de Nosotros",
+    "aboutUs_title": "Somos un equipo apasionado y comprometido con la transformación digital de la educación y la comunicación",
+    "aboutUs_text": "Nos especializamos en ofrecer soluciones integrales de e-learning, producción audiovisual, desarrollo de software y estrategias de marketing digital, siempre enfocados en crear experiencias únicas que impacten y agreguen valor a tu negocio.<br><br><strong>Nuestra Misión</strong><br>Brindamos servicios de alta calidad para ayudar a las empresas e instituciones a llevar sus proyectos al siguiente nivel mediante soluciones innovadoras y personalizadas. Nos esforzamos por ser un aliado estratégico que entiende las necesidades de cada cliente y las convierte en resultados concretos.<br><br><strong>Nuestra Visión</strong><br>Convertirnos en líderes en la creación de experiencias digitales que faciliten el aprendizaje, optimicen procesos y transformen la forma en que las empresas se comunican con sus audiencias. Queremos ser el socio de confianza para empresas que buscan soluciones tecnológicas avanzadas y creativas."
   },
-  "menuArea": {
+  "servicesArea": {
+    "services": "Servicios",
+    "title": "Nuestra selección de servicios de calidad.",
+    "servicesOne":{
+      "title": "Creación de Cursos e-Learning Personalizados",
+      "description": "Diseñamos y desarrollamos programas de formación a medida que se adaptan a las necesidades de tu empresa o institución. Desde la autoría hasta la implementación en plataformas de e-learning, ofrecemos un servicio completo para que tu equipo o estudiantes obtengan la mejor experiencia educativa."
+    },
+    "servicesTwo":{
+      "title": "Producción Audiovisual Profesional",
+      "description": "Nuestro equipo de expertos en producción audiovisual está listo para dar vida a tus proyectos con calidad profesional. Desde la grabación hasta la postproducción, cubrimos todas las etapas para que tu contenido se destaque."
+    },
+    "servicesThree":{
+      "title": "Modelado 3D y Animación de Alta Calidad",
+      "description": "Transforma tus ideas en modelos 3D y animaciones que capturan la atención de tu audiencia. Nuestro equipo de diseñadores y animadores crea visuales que pueden ser utilizados en una amplia gama de proyectos, desde presentaciones hasta videojuegos o experiencias inmersivas. Servicios incluidos"
+    },
+    "servicesFour":{
+      "title": "Estrategias de Comunicación y Marketing Digital",
+      "description": "Tu marca merece una estrategia de comunicación digital que la posicione de manera efectiva en el mercado. En [Nombre de tu Empresa], diseñamos campañas de marketing digital personalizadas, orientadas a maximizar tu presencia online y alcanzar a tu audiencia de forma efectiva."
+    },
+    "servicesFive":{
+      "title": "Desarrollo de Software a Medida",
+      "description": "Sabemos que cada negocio tiene necesidades únicas. Nuestro equipo de ingenieros de software trabaja contigo para crear aplicaciones y soluciones digitales que se adaptan perfectamente a tu empresa. Ya sea que necesites un sistema de gestión, una aplicación móvil o un servicio web personalizado, estamos aquí para ayudarte."
+    }
   },
   "employeesArea": {
+    "us": "Nosotros",
+    "title": "Te ofrecemos los mejores recursos para ti",
+    "subtitle": "Contamos con un equipo altamente calificado en diversas disciplinas, incluyendo diseñadores instruccionales, desarrolladores de software, expertos en multimedia, locutores, animadores 3D, estrategas digitales y más. Juntos, trabajamos para hacer realidad tus proyectos y brindarte el mejor servicio posible.",
+    "employees": {
+      "employeeOne": {
+        "name": "Cristina Cortes",
+        "position": "CEO & Fundadora",
+        "description": "Holi"
+      },
+      "employeeTwo": {
+        "name": "Angélica Cárdenas",
+        "position": "Gerente de Proyectos",
+        "description": "Holi"
+      },
+      "employeeThree": {
+        "name": "Daniel Martinez",
+        "position": "Director de Tecnología",
+        "description": "Holi"
+      }
+    }
   },
   "contactUsArea": {
+    "contact": "Contáctenos",
+    "title": "Aquí puedes contactar con nosotros.",
+    "subtitle": "Estamos listos para ayudarte a llevar tu proyecto a nuevas alturas. Ya sea que necesites asesoría en la creación de cursos, desarrollo de software, producción audiovisual o cualquier otro servicio, nuestro equipo está a tu disposición para crear la solución perfecta para ti. No dudes en ponerte en contacto con nosotros y descubrir cómo podemos colaborar para alcanzar tus objetivos.",
+    "phoneNumber": "Números de Teléfono",
+    "emails": "Correos Electrónicos",
+    "name": "Nombre*",
+    "email": "Correo Electrónico",
+    "phone": "Numero de Telefono*",
+    "message": "Mensaje"
   },
-  "servicesAreatwo": {
-  },
-  "footer": {
-  }
+  "servicesAreatwo": {},
+  "footer": {}
 }
