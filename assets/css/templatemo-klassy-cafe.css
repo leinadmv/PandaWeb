@@ -790,7 +790,7 @@ banner
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
-  left: 40%;
+  left: 50%;
 }
 
 #top .left-content h4 {
@@ -1698,7 +1698,7 @@ responsive
   }
   #top .left-content {
     text-align: center;
-    padding: 25% 0px;
+    padding: 40% 0px;
   }
   #about .right-content {
     margin-left: 0px;
